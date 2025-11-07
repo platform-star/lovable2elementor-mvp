@@ -1,0 +1,28 @@
+{
+  "name": "lovable2elementor-mvp",
+  "version": "0.1.0",
+  "description": "MVP converter: Lovable (URL/ZIP) -> Elementor Kit (JSON) + media.zip",
+  "private": false,
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "jsdom": "^24.0.0",
+    "mime-types": "^2.1.35",
+    "node-html-parser": "^6.1.13",
+    "p-limit": "^6.0.0",
+    "playwright": "^1.47.2",
+    "slugify": "^1.6.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
